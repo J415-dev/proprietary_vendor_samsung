@@ -126,4 +126,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_sr846.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sr846.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e3yx.so \
-    vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_zc535_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_zc535_eeprom.so
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_zc535_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_zc535_eeprom.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so

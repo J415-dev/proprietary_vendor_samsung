@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8937.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so
 endif
 
 # XXX J2 ended with N, so it does not have proper support for TUI of mdfpp, but somehow gatekeeper registers OK.
@@ -883,7 +884,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
